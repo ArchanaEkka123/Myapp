@@ -44,17 +44,20 @@ function HomeContent() {
       <div className="Section-one">
        
         <img
-          className="TheMagicOfRotary"
+          className="Magic"
           src={TheMagicOfRotary}
           alt="The Magic of Rotary"
         />
         <img
-          className="RotaryPresent"
+          className="Magic"
           src='/About/image 36.png'
           alt=" Rotary Present"
         />
-        <img className="Vss" src={Vss} alt="Vss" />
+        <img className="Magic" src={Vss} alt="Vss" />
+
       </div>
+
+
       <div className="Section-two">
         <img className="Header" src={Spardha} alt="Spardha" />
         <p className="Header_title">

@@ -9,39 +9,14 @@
   justify-content: center;
   width: 100vw;
   gap: 30px;
-  justify-content: space-evenly;
-
-  text-align: center;
+   
 }
-.TheMagicOfRotary {
+.Magic {
   width: 200px;
   height: 120px;
-  left: 0px;
   top: 10px;
+   }
 
-  gap: 0px;
-  opacity: 0px;
-}
-.RotaryPresent {
-  width: 200px;
-  height: 120px;
-
-  top: 10px;
-  gap: 0px;
-  opacity: 0px;
-  left: 0px;
-  gap: 0px;
-  opacity: 0px;
-}
-.Vss {
-  width: 200px;
-  height: 120px;
-  left: 0px;
-  top: 10px;
-
-  gap: 0px;
-  opacity: 0px;
-}
 .Section-two {
   display: flex;
   flex-direction: column;
