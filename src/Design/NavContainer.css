@@ -5,10 +5,10 @@
   background-color: white;
   position: fixed;
   display: flex;
-  background-color: rgb(193, 168, 216);
+  /* background-color: rgb(193, 168, 216); */
 }
 .link_content{
-  color: aliceblue;
+  color: rgb(1, 10, 17);
 }
 ul {
   display: flex;
