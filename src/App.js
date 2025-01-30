@@ -4,20 +4,22 @@ import Results from "./Component/Results";
 import About from "./Component/About";
 import Events from "./Component/Events";
 import Contact from "./Component/Contact";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-      <NavBar/>
-      <Routes>
-        <Route path="/" element={<HomeContent />}></Route>
-        <Route path="/About" element={<About />}></Route>
-        <Route path="/Event" element={<Events />}></Route>
-        <Route path="/Results" element={<Results />}></Route>
-        <Route path="/Contact" element={<Contact />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <Router>
+  <NavBar />
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/About" element={<About />} />
+    <Route path="/Event" element={<Event />} />
+    <Route path="/Results" element={<Results />} />
+    <Route path="/Contact" element={<Contact />} />
+  </Routes>
+</Router>
+
   );
 }
 
