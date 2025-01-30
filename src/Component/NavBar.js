@@ -9,7 +9,7 @@ const NavBar = () => {
       <img className="HeaderName" src={navtitle} alt="Spardha img" />
       <ul>
         <li className="list-box">
-          <Link to="/Home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="list-box">
           <Link to="/About">About</Link>

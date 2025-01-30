@@ -47,7 +47,7 @@ function HomeContent() {
         />
         <img
           className="RotaryPresent"
-          src={RotaryPresent}
+          src='/About/image 36.png'
           alt=" Rotary Present"
         />
         <img className="Vss" src={Vss} alt="Vss" />
