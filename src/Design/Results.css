@@ -1,0 +1,253 @@
+.Result-container {
+  position: absolute;
+  top: 150px;
+  z-index: -1000;
+  width: 100vw;
+}
+.Result {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 85vw;
+  margin: auto;
+}
+
+.Champions-grp {
+  display: flex;
+  top: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 503px;
+}
+.champion-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 544px;
+}
+.SecondRunnerUp {
+  width: 308.44px;
+  height: 305px;
+  top: 386px;
+  gap: 0px;
+  opacity: 0px;
+}
+.rp1 {
+  font-family: DM Sans;
+  font-size: 15.4px;
+  font-weight: 700;
+  line-height: 23.96px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 0%;
+}
+.sp1 {
+  font-family: DM Sans;
+  font-size: 13.69px;
+  font-weight: 400;
+  line-height: 20.53px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 193.81px;
+  height: 38.85px;
+  gap: 0px;
+  margin-top: 0%;
+  opacity: 0px;
+}
+.SchoolChampion {
+  width: 430.15px;
+  height: 430px;
+  top: 260px;
+  left: 336.44px;
+  gap: 0px;
+  opacity: 0px;
+}
+.rp2 {
+  font-family: DM Sans;
+  font-size: 24.67px;
+  font-weight: 700;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 0%;
+}
+.sp2 {
+  font-family: DM Sans;
+  font-size: 21.93px;
+  font-weight: 400;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 300px;
+  height: 60px;
+  gap: 0px;
+  margin-top: 0%;
+  opacity: 0px;
+}
+.FirstRunnerUp {
+  width: 217.18px;
+  height: 263px;
+  top: 344px;
+  left: 849.38px;
+  gap: 0px;
+  opacity: 0px;
+}
+.rp3 {
+  font-family: DM Sans;
+  font-size: 15.4px;
+  font-weight: 700;
+  line-height: 23.96px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 0px;
+}
+.sp3 {
+  font-family: DM Sans;
+  font-size: 13.69px;
+  font-weight: 400;
+  line-height: 20.53px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 187.81px;
+  height: 42.85px;
+  gap: 0px;
+  margin-top: 0px;
+  opacity: 0px;
+}
+.result-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  position: relative;
+  top: 120px;
+  margin: auto;
+  gap: 10px;
+  opacity: 0px;
+}
+.rkj {
+  height: 30px;
+}
+.rp4 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 0%;
+}
+.sp4 {
+  font-family: DM Sans;
+  font-size: 21.18px;
+  font-weight: 400;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 0%;
+}
+.Trophy-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 322px;
+
+  width: 100vw;
+
+  top: 243px;
+  left: 139px;
+  gap: 20px;
+  opacity: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.trophy {
+  width: 236px;
+  height: 146px;
+  gap: 0px;
+  opacity: 0px;
+  background: #ffffff;
+}
+.game-container {
+  box-shadow: 0px 0px 6.85px 0px #00000040;
+  width: 370px;
+  height: 453px;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 13.7px 5px 0px 0px;
+  opacity: 0px;
+}
+.category {
+  width: 370px;
+  height: 320px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0%;
+  background-color: gainsboro;
+}
+
+.under {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.female span {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0%;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.male span {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0% 0%;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.game {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 0px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 5%;
+}

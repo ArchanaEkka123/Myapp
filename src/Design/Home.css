@@ -1,0 +1,328 @@
+.Home {
+  position: absolute;
+  top: 150px;
+  z-index: -1000;
+}
+.Section-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  gap: 30px;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+.TheMagicOfRotary {
+  width: 200px;
+  height: 120px;
+  left: 0px;
+  top: 10px;
+
+  gap: 0px;
+  opacity: 0px;
+}
+.RotaryPresent {
+  width: 200px;
+  height: 120px;
+
+  top: 10px;
+  gap: 0px;
+  opacity: 0px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.Vss {
+  width: 200px;
+  height: 120px;
+  left: 0px;
+  top: 10px;
+
+  gap: 0px;
+  opacity: 0px;
+}
+.Section-two {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 10px;
+  width: 100vw;
+  top: 50px;
+}
+.Header {
+  width: 50vw;
+  height: 100px;
+  top: 0px;
+  margin: auto;
+}
+.Header_title {
+  font-size: 20px;
+  left: 10px;
+  margin: auto;
+  width: 80vw;
+}
+.Champions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  top: 70px;
+  width: 100vw;
+}
+.Section-three {
+  top: 0px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100vw;
+}
+.GirlWithBAt {
+  width: 350px;
+  height: 340px;
+}
+.BoyWithFootBall {
+  width: 350px;
+  height: 340px;
+}
+.BoyWithBAt {
+  width: 350px;
+  height: 340px;
+}
+.inner-section {
+  top: 100px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+.para1 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: var(--TitleLargeLineHeight);
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 80vw;
+}
+.Section-four {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 190px;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: 0%;
+}
+.p1 {
+  width: 170px;
+  height: 66px;
+  top: 0px;
+  align-items: center;
+  margin: auto;
+}
+.SportFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100vw;
+  top: 200px;
+  position: relative;
+}
+.SportFrame img {
+  top: 0px;
+  left: 0%;
+}
+.Midsection {
+  position: relative;
+  top: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  gap: 0px;
+  margin: 0%;
+  width: 100vw;
+}
+.Midsection img {
+  top: 0px;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  left: 0px;
+}
+.Team {
+  position: relative;
+  top: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  gap: 30px;
+  justify-content: center;
+}
+.Team img {
+  top: 0px;
+  left: 0px;
+}
+.Discover {
+  display: flex;
+  flex-direction: column;
+  column-gap: 0px;
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+.Discover img {
+  top: 0px;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  left: 0px;
+}
+@media (max-width: 768px) {
+  /* Styles for tablets and larger phones */
+  .TheMagicOfRotary {
+    width: 150px;
+    height: 120px;
+    left: 0px;
+    top: 10px;
+
+    gap: 0px;
+    opacity: 0px;
+  }
+  .RotaryPresent {
+    width: 150px;
+    height: 120px;
+    top: 10px;
+    gap: 0px;
+    opacity: 0px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .Vss {
+    width: 150px;
+    height: 120px;
+    left: 0px;
+    top: 10px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .inner-section {
+    top: 50px;
+    position: relative;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+  }
+  .p1 {
+    width: 144px;
+    height: 51px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: var(--TitleMediumLineHeight);
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  p {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .Section-four {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 170px;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: 0%;
+  }
+}
+@media (max-width: 480px) {
+  /* Styles for small phones */
+  .Section-one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 30px;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .Header_title {
+    font-size: 16px;
+    left: 10px;
+    margin: auto;
+    width: 81vw;
+  }
+  .Section-three {
+    top: 0px;
+    position: relative;
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100vw;
+  }
+  .HeaderName {
+    position: fixed;
+    right: 127px;
+    top: 21px;
+    width: 88px;
+    height: 52px;
+    left: 10px;
+  }
+  .SportFrame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+    flex-wrap: wrap;
+    width: 100vw;
+    top: 200px;
+    position: relative;
+  }
+  .Team {
+    position: relative;
+    top: 292px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 30px;
+    justify-content: center;
+  }
+}
+
+/* Medium Devices (Small Laptops) */
+@media (max-width: 1024px) {
+  /* Styles for small laptops */
+}

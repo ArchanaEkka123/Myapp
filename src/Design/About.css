@@ -1,0 +1,861 @@
+.About-Container {
+  position: absolute;
+  width: 100vw;
+  top: 100px;
+  z-index: -1000;
+}
+.About-flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100vw;
+  top: 30px;
+}
+.img {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  width: 40vw;
+}
+.About-flex img {
+  width: 23vw;
+  height: 23vh;
+  padding: 20px;
+  margin: auto;
+}
+.content-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  column-gap: 0px;
+  position: relative;
+  top: 0px;
+  flex-wrap: wrap;
+  /* width: 650px;
+  padding: 0px; */
+  width: 570px;
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.abt {
+  padding: 0px;
+  margin: 0px;
+  top: 0%;
+}
+
+.about-one {
+  padding: 10px;
+}
+
+.About-flex1 {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+
+  top: 60px;
+}
+.content-box1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  column-gap: 0px;
+  position: relative;
+  top: 0px;
+  flex-wrap: wrap;
+  width: 500px;
+  padding: 0px;
+}
+.about-two,
+.abt2 {
+  padding: 10px;
+  top: -15px;
+  position: relative;
+}
+.about-two {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.About-flex1 h1 {
+  padding: 0px;
+  margin: 0%;
+}
+.image-container {
+  /* width: 654px;
+  height: 628px; */
+  width: 45vw;
+  height: 589px;
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flexi-row {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  margin-top: 25px;
+  height: 340px;
+}
+.rotary {
+  width: 10vw;
+  height: 58px;
+  margin: auto;
+  gap: 0px;
+  opacity: 0px;
+}
+.vector {
+  width: 20vw;
+  margin: auto;
+}
+.spardha {
+  width: 25vw;
+  height: 60.29px;
+  margin: auto;
+  gap: 0px;
+  opacity: 0px;
+}
+.boy1 {
+  /* width: 175px; */
+  width: 13vw;
+  height: 120px;
+  position: relative;
+  bottom: -150px;
+
+  gap: 0px;
+  opacity: 0px;
+}
+.girl {
+  /* width: 240px;
+  height: 318px; */
+  width: 30vw;
+  height: 225px;
+  top: 263.71px;
+  left: 176px;
+  gap: 0px;
+  opacity: 0px;
+}
+.boy2 {
+  /* width: 186px; */
+  height: 120px;
+  width: 13vw;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  bottom: -150px;
+}
+.section-div1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+}
+
+.sp {
+  width: 100px;
+  height: 55px;
+  gap: 0px;
+  opacity: 0px;
+  margin: auto;
+}
+.text-one {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.65px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.text-two {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: var(--TitleMediumLineHeight);
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.section-div2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.section-div2 h3 {
+  font-family: DM Sans;
+  font-size: 21.18px;
+  font-weight: 700;
+  line-height: 42.93px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.group-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dev-image {
+  width: 349px;
+  height: 250px;
+  position: relative;
+  top: -10px;
+}
+.d1 {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0px;
+  padding: 0px;
+}
+.development {
+  display: flex;
+  flex-direction: column;
+
+  width: 350px;
+  height: 350px;
+
+  position: relative;
+}
+.p1 {
+  width: 348px;
+  height: 60px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: var(--TitleMediumLineHeight);
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.section-div3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  text-align: center;
+  top: 200px;
+  width: 65vw;
+  margin: auto;
+}
+.pbox {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.65px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.pbox2 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 42.93px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.btn-register {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 150px;
+  border: none;
+
+  padding: 0px 10px 0px 15px;
+  gap: 0px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;
+  margin: auto;
+  background-color: #f26522;
+  color: white;
+  cursor: pointer;
+}
+.section-div4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70vw;
+  position: relative;
+  top: 300px;
+  margin: auto;
+}
+.section-div4 h4 {
+  font-family: DM Sans;
+  font-size: 21.18px;
+  font-weight: 700;
+  line-height: 42.93px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 0%;
+  margin: 0%;
+}
+.pbox3 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: var(--TitleMediumLineHeight);
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.card-container {
+  position: relative;
+  top: 305px;
+  text-align: center;
+  justify-content: center;
+}
+.gi {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17.65px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-transform: uppercase;
+}
+.card-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 90vw;
+  height: 770px;
+  gap: 29px;
+  opacity: 0px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.card {
+  width: 270px;
+  height: 364px;
+  gap: 0px;
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 0px 6.85px 0px #00000040;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-content {
+  height: 104px;
+  position: relative;
+  top: -17px;
+  margin: auto;
+}
+.card-name {
+  font-family: DM Sans;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 41px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 250px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+}
+.degination {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 270px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+}
+.mobile-no {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 270px;
+  height: 14px;
+  gap: 0px;
+  opacity: 0px;
+}
+.card img {
+  width: 270px;
+  height: 270px;
+  gap: 0px;
+  opacity: 0px;
+}
+/* Extra Small Devices (Phones) */
+@media (max-width: 480px) {
+  /* Styles for small phones */
+  .img {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 82vw;
+    height: 226px;
+  }
+  .About-flex img {
+    width: 46vw;
+    height: 25vh;
+    padding: 20px;
+    margin: auto;
+  }
+  .abt {
+    padding: 0px;
+    margin: 0px;
+    width: 265px;
+    margin-left: 36px;
+    top: 0%;
+  }
+  .content-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    position: relative;
+    top: 0px;
+    flex-wrap: wrap;
+    width: 87vw;
+    font-family: DM Sans;
+    font-size: 13px;
+    align-items: left;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .content-box1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    position: relative;
+    top: 0px;
+    flex-wrap: wrap;
+    width: 83vw;
+    padding: 0px;
+  }
+  .abt2 {
+    padding: 10px;
+    top: -15px;
+    position: relative;
+    font-size: 23px;
+  }
+  .about-two {
+    font-family: DM Sans;
+    font-size: 13px;
+    align-items: left;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .image-container {
+    width: 82vw;
+    height: 589px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* padding-right: 20px; */
+    /* padding-left: 20px; */
+  }
+  .flexi-row {
+    display: flex;
+    justify-content: center;
+    width: 82vw;
+    position: relative;
+    margin-top: 22px;
+    height: 341px;
+  }
+  .girl {
+    width: 115px;
+    height: 203px;
+    top: 220.71px;
+    left: 176px;
+    gap: 0px;
+    opacity: 106px;
+  }
+  .boy2 {
+    /* width: 186px; */
+    height: 131px;
+    width: 137px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    bottom: -150px;
+  }
+  .boy1 {
+    /* width: 175px; */
+    height: 131px;
+    width: 137px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    bottom: -150px;
+  }
+  .spardha {
+    width: 290px;
+    height: 57.29px;
+    margin: auto;
+    gap: 0px;
+    opacity: 89px;
+  }
+  .rotary {
+    width: 148px;
+    height: 59px;
+    margin: auto;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .vector {
+    width: 172px;
+    margin: auto;
+  }
+  p {
+    font-family: DM Sans;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .sp {
+    width: 89px;
+    height: 37px;
+    gap: 0px;
+    opacity: 28px;
+    margin: auto;
+  }
+  .section-div1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 107px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 85vw;
+    margin: auto;
+  }
+  .section-div3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    top: 155px;
+    width: 83vw;
+    margin: auto;
+  }
+  .pbox2 {
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 31.93px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .section-div4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 89vw;
+    position: relative;
+    top: 243px;
+    margin: auto;
+  }
+  .card-container {
+    position: relative;
+    top: 247px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/* Small Devices (Tablets & Larger Phones) */
+@media (max-width: 668px) {
+  /* Styles for tablets and larger phones */
+  .img {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 554px;
+    height: 412px;
+  }
+  .About-flex img {
+    width: 310px;
+    height: 179px;
+    padding: 20px;
+    margin: auto;
+  }
+  .content-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    position: relative;
+    top: 0px;
+    flex-wrap: wrap;
+    width: 610px;
+    align-items: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .About-flex1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    top: 60px;
+  }
+  .About-flex1 h1 {
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .about-two {
+    font-family: DM Sans;
+    width: 545px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    /* text-align: left; */
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .content-box1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    position: relative;
+    top: 0px;
+    flex-wrap: wrap;
+    width: 615px;
+    padding: 0px;
+  }
+  image-container {
+    width: 525px;
+    height: 559px;
+    padding: 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .flexi-row {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    margin-top: 25px;
+    height: 340px;
+  }
+
+  .rotary {
+    width: 24vw;
+    height: 73px;
+    margin: auto;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .girl {
+    width: 242px;
+    height: 235px;
+    top: 263.71px;
+    left: 176px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .boy2 {
+    width: 144px;
+    height: 193px;
+    width: 149px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    bottom: -150px;
+  }
+  .boy1 {
+    /* width: 175px; */
+    width: 150px;
+    height: 193px;
+    position: relative;
+    bottom: -150px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .image-container {
+    width: 80vw;
+    height: 636px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .group-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .section-div1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    text-align: center;
+    width: 92vw;
+    margin: auto;
+  }
+  .section-div3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    top: 166px;
+    width: 93vw;
+    margin: auto;
+  }
+  .section-div4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 744px;
+    position: relative;
+    top: 241px;
+    margin: auto;
+  }
+  .card-container {
+    position: relative;
+    top: 261px;
+    text-align: center;
+    justify-content: center;
+  }
+  .pbox2 {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 42.93px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .section-div4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 588px;
+    position: relative;
+    top: 227px;
+    margin: auto;
+  }
+  .sp {
+    width: 88px;
+    height: 42px;
+    gap: 0px;
+    opacity: 0px;
+    margin: auto;
+  }
+}
+
+/* Medium Devices (Small Laptops) */
+@media (max-width: 1024px) {
+  /* Styles for small laptops */
+}
+
+/* Large Devices (Desktops) */
+@media (max-width: 1200px) {
+  /* Styles for desktops */
+}

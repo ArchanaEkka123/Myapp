@@ -1,0 +1,47 @@
+.Contact-container {
+  position: absolute;
+  width: 100vw;
+  top: -150px;
+  z-index: -1000;
+}
+.Contact-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+  height: 189px;
+  position: relative;
+  top: 500px;
+  opacity: 0px;
+
+  width: 100vw;
+}
+
+.email {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.gmail {
+  font-family: DM Sans;
+  font-size: 21.18px;
+  font-weight: 700;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.social {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
