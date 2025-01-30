@@ -27,10 +27,10 @@ const NavBar = () => {
           {" "}
           <Link to="/Contact" className="link_content"> Contact</Link>
         </li>
-        {/* <div className="btn">
+        <div className="btn">
           <button className="Registration">Registration</button>
           <button className="Login">Login</button>
-        </div> */}
+        </div>
       </ul>
       </nav>
       
