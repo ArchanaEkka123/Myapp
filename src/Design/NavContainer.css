@@ -5,25 +5,24 @@
   background-color: white;
   position: fixed;
   display: flex;
+  background-color: rgb(193, 168, 216);
 }
-
+.link_content{
+  color: aliceblue;
+}
 ul {
   display: flex;
+  justify-content: center;
+   top: 15px;
   list-style-type: none;
   gap: 20px;
-  height: 20px;
-  top: 15px;
-  text-decoration: none;
   position: fixed;
   width: 100vw;
-  list-style-type: none;
-  justify-content: center;
+    
   text-align: center;
-  opacity: 0px;
+ 
 }
-ul li Link {
-  text-decoration: none;
-}
+
 .HeaderName {
   position: fixed;
   right: 250px;

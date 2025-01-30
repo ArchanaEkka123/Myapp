@@ -35,11 +35,14 @@ import EarnRecognition from "./Image/EarnRecognition/EarnRecognition.png";
 // import AgeCrieteria from "./Image/AgeCrieteria/AgeCriteria.png";
 // import GenderCategories from "./Image/GenderCategories/GenderCategories.png";
 import "../Design/Home.css";
+import { Link } from "react-router-dom";
 
 function HomeContent() {
-  return (
+  return ( 
     <div className="Home">
+
       <div className="Section-one">
+       
         <img
           className="TheMagicOfRotary"
           src={TheMagicOfRotary}
