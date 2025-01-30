@@ -7,6 +7,7 @@ const NavBar = () => {
   return (
     <div className="Container">
       <img className="HeaderName" src={navtitle} alt="Spardha img" />
+      <nav>
       <ul>
         <li className="list-box">
           <Link to="/">Home</Link>
@@ -30,6 +31,8 @@ const NavBar = () => {
           <button className="Login">Login</button>
         </div>
       </ul>
+      </nav>
+      
     </div>
   );
 };
